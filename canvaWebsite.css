@@ -1,0 +1,53 @@
+.canvaHeader {
+  background: linear-gradient(to right, rgb(60, 53, 242), rgb(129, 48, 242));
+  color: white;
+  overflow: hidden;
+}
+.canvaBackgroundSideRight, .canvaBackgroundBottom, .canvaBackgroundSideLeft, .sacredBackgroundSideLeft, .sacredBackgroundSideRight {
+  position: absolute;
+}
+.canvaBackgroundBottom {
+  z-index: 0;
+  width: 99%;
+  height: 50%;
+  bottom: -80px;
+  border-radius: 50%;
+  background: linear-gradient(rgba(82, 103, 217, 0), rgba(82, 103, 217, 1));
+}
+
+.canvaBackgroundSideRight, .canvaBackgroundSideLeft, .sacredBackgroundSideLeft, .sacredBackgroundSideRight {
+  z-index: 1;
+  width: 25%;
+  height: 20%;
+}
+
+.canvaBackgroundSideRight, .canvaBackgroundSideLeft {
+  bottom: -2%;
+  background: linear-gradient(rgb(13, 196, 217), rgb(54, 141, 217), rgb(82, 103, 217));
+}
+.canvaBackgroundSideRight {
+  right: -10%;
+  transform: rotate(-53deg);
+}
+.canvaBackgroundSideLeft {
+  left: -10%;
+  transform: rotate(53deg);
+}
+
+.sacredBackgroundSideLeft, .sacredBackgroundSideRight {
+  top: -2%;
+  background: linear-gradient(#E57373, #F44336, #D32F2F);
+}
+.sacredBackgroundSideRight {
+  right: -10%;
+  transform: rotate(53deg);
+}
+.sacredBackgroundSideLeft {
+  left: -10%;
+  transform: rotate(-53deg);
+}
+
+.shjcsLogo {
+  width: 20%;
+  height: 30%;
+}
