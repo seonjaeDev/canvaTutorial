@@ -27,10 +27,12 @@
 }
 .canvaBackgroundSideRight {
   right: -10%;
+  border-radius: 0px 0px 0px 60%;
   transform: rotate(-53deg);
 }
 .canvaBackgroundSideLeft {
   left: -10%;
+  border-radius: 0px 0px 60% 0px;
   transform: rotate(53deg);
 }
 
@@ -50,4 +52,9 @@
 .shjcsLogo {
   width: 20%;
   height: 30%;
+}
+
+.thLG-canva {
+  background: linear-gradient(to right, #3C35F2, #8130F2);
+  color: white;
 }

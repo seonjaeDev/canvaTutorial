@@ -18,17 +18,18 @@ body {
 header {
   height: 645px;
   margin: 0;
+  font-size: 4.3em;
 }
 section {
   min-height: 645px;
 }
 section, footer {
-	padding-top: 50px;
-	padding-bottom: 15px;
+	padding-top: 55px;
+	padding-bottom: 20px;
 }
 header, nav.horizontal-nav ul, section, footer {
-	padding-left: 80px;
-	padding-right: 80px;
+	padding-left: 85px;
+	padding-right: 85px;
 }
 
 header {
@@ -37,7 +38,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 3em;
   /* overflow: hidden; */
 }
 header h1, h4 {
@@ -147,7 +147,7 @@ dt {
   font-weight: bold;
 }
 table {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   width: 100%;
 }
 table, th {
@@ -211,6 +211,9 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.sectionAbout {
+  font-size: 1.8em;
 }
 
 .colorPalette-box p {
