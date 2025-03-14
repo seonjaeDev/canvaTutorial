@@ -15,17 +15,20 @@ body {
   overflow-x: hidden;
 }
 
-header, section {
-  height: 100vh;
+header {
+  height: 645px;
   margin: 0;
+}
+section {
+  min-height: 645px;
 }
 section, footer {
 	padding-top: 50px;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 }
 header, nav.horizontal-nav ul, section, footer {
-	padding-left: 75px;
-	padding-right: 75px;
+	padding-left: 80px;
+	padding-right: 80px;
 }
 
 header {
@@ -134,16 +137,35 @@ section h2 {
   text-align: center;
 }
 
+footer {
+  background-color: #212121;
+  color: white;
+}
+
 dt {
   font-size: 1.3em;
   font-weight: bold;
 }
 table {
+  margin-bottom: 15px;
   width: 100%;
 }
-table, th, td {
+table, th {
   border: 1px solid black;
   border-collapse: collapse;
+}
+tr:nth-child(even) {
+  background-color: #F2F2F2;
+}
+th, td {
+  padding: 15px;
+}
+th {
+  text-align: left;
+  background: linear-gradient(to right, #38EF7D, #11998E);
+}
+td {
+  width: 50%;
 }
 video {
   /* z-index: 5; */
