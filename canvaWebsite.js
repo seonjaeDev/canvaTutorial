@@ -1,5 +1,6 @@
-// hide following contents
+// display following contents
 document.getElementById("v-nav").style.display = "none";
+document.getElementById("about").style.display = "block";
 document.getElementById("c-palettes").style.display = "none";
 
 // web content
