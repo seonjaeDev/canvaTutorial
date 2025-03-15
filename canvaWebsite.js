@@ -4,6 +4,8 @@ document.getElementById("navButton4").style.display = "none";
 document.getElementById("c-palettes").style.display = "none";
 
 // web content
+document.getElementById("main-body").style.fontFamily = "montserrat, sans-serif";
+
 document.getElementById("webTitle").innerHTML = "Canva Tutorial";
 
 let headerTitleElement = document.getElementById("pageTitle");

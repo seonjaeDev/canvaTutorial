@@ -1,4 +1,12 @@
 @font-face {
+  font-family: 'montserrat';
+  src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: 'montserrat-italic';
+  src: url(fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
   font-family: 'playwrite-hu';
   src: url(fonts/PlaywriteHU-VariableFont_wght.ttf);
 }
