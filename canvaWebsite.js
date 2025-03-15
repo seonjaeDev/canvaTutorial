@@ -1,5 +1,6 @@
 // display following contents
 document.getElementById("v-nav").style.display = "none";
+document.getElementById("navButton4").style.display = "none";
 document.getElementById("c-palettes").style.display = "none";
 
 // web content
